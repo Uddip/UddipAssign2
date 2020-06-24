@@ -7,9 +7,9 @@ var planetArray = new Array();
 
 $(document).ready(function() {
   $.getJSON("data/planets.json", function(data) {
-    for (x = 0; x < data.planets.length; x++) {
+    for (x = 0; x < data.solarSystem.planets.length; x++) {
       console.log("Plant: " + x);
-      planetArray[x] = data.planets[x];
+      planetArray[x] = data.solarSystem.planets[x];
     }
   });
 });

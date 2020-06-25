@@ -2,3 +2,51 @@
 * Uddip Amin
 * 991518202
 */
+
+td {
+    padding: 6px;
+}
+
+main {
+    margin: 30px;
+}
+
+header {
+  margin: 30px;
+}
+
+a {
+    color: #0288D1;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+
+li {
+  display: block;
+  float: left;
+}
+
+.mainHeader {
+  text-align: center;
+}
+
+.planetCard {
+  border-radius: 100px;
+}
+
+.planet_label{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#planet_image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
